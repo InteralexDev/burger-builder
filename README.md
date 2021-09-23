@@ -1,6 +1,6 @@
 # Burger Builder (English)
 
-## Table des matières
+## Table of content
   * [Presentation](#chapter-1)
   * [Installation](#chapter-2)
 
@@ -17,6 +17,24 @@ The REACT library is open-sourced software licensed under the MIT license and cr
 ### Create a empty project
 ```bash
 npx create-react-app my-app
+```
+
+### Add custom css options
+
+#### Make config files visible
+```bash
+npm run eject
+```
+
+#### Modify webpack.config.js
+Find "css-loader" with ctrl-f and modify the content like below :
+```js
+loader: require.resolve('css-loader'),
+    options: {
+        cssOptions,
+        modules: true,
+        localIdentName: '[name]__[local]__[hash:base64:5]',
+    }
 ```
 
 ### Launching the website
