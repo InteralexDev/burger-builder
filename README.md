@@ -16,7 +16,7 @@ The REACT library is open-sourced software licensed under the MIT license and cr
 
 ### Create a empty project
 ```bash
-npx create-react-app my-app
+npx create-react-app my-app --lisence-version 1.1.5
 ```
 
 ### Add custom css options
