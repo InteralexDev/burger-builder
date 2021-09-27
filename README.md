@@ -16,7 +16,7 @@ The REACT library is open-sourced software licensed under the MIT license and cr
 
 ### Create a empty project
 ```bash
-npx create-react-app my-app --lisence-version 1.1.5
+npx create-react-app my-app --scripts-version 1.1.5
 ```
 
 ### Add custom css options
@@ -35,6 +35,11 @@ loader: require.resolve('css-loader'),
         modules: true,
         localIdentName: '[name]__[local]__[hash:base64:5]',
     }
+```
+
+#### Install props-types
+```bash
+npm install --save prop-types
 ```
 
 ### Launching the website
