@@ -47,3 +47,5 @@ npm install --save prop-types
 cd my-app
 npm start
 ```
+
+<p align="center">Copyright © 2021 InteralexDev | all rights reserved</p>
